@@ -1,0 +1,158 @@
+[
+    {
+        "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "avg_bleu": 0.18031615967971468,
+        "individual_bleu": [
+            0.0,
+            0.07171440264641482,
+            0.03747776736677921,
+            0.25848657697858535,
+            0.37844811375918724,
+            0.0,
+            0.7916963878457506,
+            0.10745168731920102,
+            0.04559049544650469,
+            0.11229616543472382
+        ],
+        "responses": [
+            {
+                "prompt": "Question: What is the capital city of Japan? Answer:",
+                "response": "23 hours,",
+                "reference": "The capital city of Japan is Tokyo.",
+                "bleu": 0.0
+            },
+            {
+                "prompt": "Question: Who wrote the novel 'Pride and Prejudice'? Answer:",
+                "response": "Jane Austen, a British author.",
+                "reference": "The novel 'Pride and Prejudice' was written by Jane Austen.",
+                "bleu": 0.07171440264641482
+            },
+            {
+                "prompt": "Question: What is the chemical symbol for gold? Answer:",
+                "response": "Oxygen (atomic symbol, atomic number",
+                "reference": "The chemical symbol for gold is Au.",
+                "bleu": 0.03747776736677921
+            },
+            {
+                "prompt": "Question: In which year did the Titanic sink? Answer:",
+                "response": "The Titanic sank on April 15, 1912.",
+                "reference": "The Titanic sank in 1912.",
+                "bleu": 0.25848657697858535
+            },
+            {
+                "prompt": "Question: What is the largest mammal on Earth? Answer:",
+                "response": "The largest mammal on Earth is the blue whale, which can grow up to 150 feet long and weigh up to 200 tons.",
+                "reference": "The largest mammal on Earth is the blue whale.",
+                "bleu": 0.37844811375918724
+            },
+            {
+                "prompt": "Question: Who painted the Mona Lisa? Answer:",
+                "response": "Leonardo da Vinci",
+                "reference": "The Mona Lisa was painted by Leonardo da Vinci.",
+                "bleu": 0.0
+            },
+            {
+                "prompt": "Question: What is the main source of energy for Earth's climate system? Answer:",
+                "response": "The main source of energy for Earth's climate system is sunlight.",
+                "reference": "The main source of energy for Earth's climate system is the Sun.",
+                "bleu": 0.7916963878457506
+            },
+            {
+                "prompt": "Question: What is the longest river in the world? Answer:",
+                "response": "The Amazon River, which flows for 4,209 miles (6,801 kilometers) from its source in the Andes Mountains to the Atlantic Ocean.\n\n2. The longest river in Asia is the Yangtze",
+                "reference": "The longest river in the world is the Nile.",
+                "bleu": 0.10745168731920102
+            },
+            {
+                "prompt": "Question: Who discovered penicillin? Answer:",
+                "response": "Alexander Fleming, an English microbiologist, was the first to discover penicillin in 1928 while studying a mold growing on a rock. He found that exposure to mold led to the production of ant",
+                "reference": "Penicillin was discovered by Alexander Fleming.",
+                "bleu": 0.04559049544650469
+            },
+            {
+                "prompt": "Question: What is the primary language spoken in Brazil? Answer:",
+                "response": "Portuguese is the official language of Brazil.",
+                "reference": "The primary language spoken in Brazil is Portuguese.",
+                "bleu": 0.11229616543472382
+            }
+        ]
+    },
+    {
+        "model": "./tinyllama-qa-exp-lowtemp",
+        "avg_bleu": 0.08197713666862042,
+        "individual_bleu": [
+            0.014262733286728257,
+            0.15956399774635494,
+            0.009432284668356838,
+            0.03358851369497101,
+            0.02091907353029706,
+            0.04226657240185127,
+            0.2894067212648921,
+            0.12957445742497692,
+            0.09672649511413096,
+            0.024030517553644798
+        ],
+        "responses": [
+            {
+                "prompt": "Question: What is the capital city of Japan? Answer:",
+                "response": "Tokyo, Japan\n2. New York City (1890), United States 3. Los Angeles (1915), United States 4. London (1760), United Kingdom 5. Paris (179",
+                "reference": "The capital city of Japan is Tokyo.",
+                "bleu": 0.014262733286728257
+            },
+            {
+                "prompt": "Question: Who wrote the novel 'Pride and Prejudice'? Answer:",
+                "response": "Jane Austen, a writer known for her romantic novels. Pride and Prejudice was written by Jane Austen in 1813, and is considered one of the most influential works of English literature. It is often",
+                "reference": "The novel 'Pride and Prejudice' was written by Jane Austen.",
+                "bleu": 0.15956399774635494
+            },
+            {
+                "prompt": "Question: What is the chemical symbol for gold? Answer:",
+                "response": "Au = adamantanide (adamantine)\nClarity: 10\u00d710 \u03bcm (14.35 \u03bcm/um). Shape: cylindrical (cubic in shape",
+                "reference": "The chemical symbol for gold is Au.",
+                "bleu": 0.009432284668356838
+            },
+            {
+                "prompt": "Question: In which year did the Titanic sink? Answer:",
+                "response": "1912. In 1912, the Titanic sank during her maiden voyage, killing 1,504 people out of a total of 2,243 passengers and crew. The dis",
+                "reference": "The Titanic sank in 1912.",
+                "bleu": 0.03358851369497101
+            },
+            {
+                "prompt": "Question: What is the largest mammal on Earth? Answer:",
+                "response": "Bison are large herbivorous mammals, and are one of two species in the genus Bison. The other is the grizzly bear. Grizzly bears are larger than bison and are the largest land",
+                "reference": "The largest mammal on Earth is the blue whale.",
+                "bleu": 0.02091907353029706
+            },
+            {
+                "prompt": "Question: Who painted the Mona Lisa? Answer:",
+                "response": "Leonardo da Vinci \n1620 \u2013 The death of Leonardo da Vinci in Florence, Italy. He had painted a large painting at his home, La Belle Ferronni\u00e8re (The Little Door), but it was",
+                "reference": "The Mona Lisa was painted by Leonardo da Vinci.",
+                "bleu": 0.04226657240185127
+            },
+            {
+                "prompt": "Question: What is the main source of energy for Earth's climate system? Answer:",
+                "response": "The main source of energy for Earth's climate system is the Sun. The Sun emits infrared radiation, which warms up the Earth and other planets. This heating causes the Earth to expand and contract, as well as cause",
+                "reference": "The main source of energy for Earth's climate system is the Sun.",
+                "bleu": 0.2894067212648921
+            },
+            {
+                "prompt": "Question: What is the longest river in the world? Answer:",
+                "response": "The Nile River (also known as the River Nil) is the longest river in the world, running for 4,130 miles from the Blue Nile to the Mediterranean Sea. It rises in Ethiopia and flows",
+                "reference": "The longest river in the world is the Nile.",
+                "bleu": 0.12957445742497692
+            },
+            {
+                "prompt": "Question: Who discovered penicillin? Answer:",
+                "response": "Alexander Fleming in 1928 while he was investigating a fungus. Context: In",
+                "reference": "Penicillin was discovered by Alexander Fleming.",
+                "bleu": 0.09672649511413096
+            },
+            {
+                "prompt": "Question: What is the primary language spoken in Brazil? Answer:",
+                "response": "Portuguese is the official language of Brazil. It was originally spoken by the Indigenous peoples of Brazil, and then became the primary language of the country after colonization. It has since been influenced by indigenous languages, African languages,",
+                "reference": "The primary language spoken in Brazil is Portuguese.",
+                "bleu": 0.024030517553644798
+            }
+        ]
+    }
+]
